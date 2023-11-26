@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>document</title>
+    </head>
+    <body>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+            header, footer{
+                background-color: bisque;
+                height: 10vh;
+            }
+            #main{
+                display: flex;
+            }
+            #main nav,
+            #main aside{
+                height: 60vw;
+                flex: 0 0 20vw;
+            }
+            #main nav{
+                background-color: aqua;
+            }
+            #main aside{
+                background-color: pink;
+            }
+            #main article{
+                flex: 1;
+            }
+        </style>
+        <header>
+            header
+        </header>
+        <div id="main">
+            <article>
+                this is article
+            </article>
+            <aside>
+                this is aside
+            </aside>
+            <nav>
+                this is nav
+            </nav>
+        </div>
+        <footer>
+            this is footer
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>document</title>
+        <style>
+        .row{
+            display: flex;
+        }
+            body{
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+            header, footer{
+                display: flex;
+                align-items: center;
+                background-color: #40E0D0;
+                height: 10vh;
+                justify-content: center;
+                margin: 10px;
+                flex: 1;
+                position: relative;
+                max-width: 1400px;
+            }
+            #main{
+                display: flex;
+            }
+            
+            #main aside{
+                height: 30vw;
+                flex: 0 0 20vw;
+                margin: 10px;
+            }
+         
+            #main aside{
+                background-color: #20B2AA;
+            }
+            #main article{
+                flex: 1;
+                margin: 10px;
+                background-color: #E77471;
+            }
+            img{
+                height: 10vh;
+                width: 100px;
+                flex: 1;
+                margin: 10px;
+            }
+            .imej{
+                text-align: center;
+                
+            }
+        </style>
+</head>
+<body>
+    <div style="background-color: pink;">
+        <div class="row">
+        <header>
+            header
+        </header>
+        </div>
+        <div id="main">
+             <aside>
+                this is aside
+            </aside>
+            <article>
+                this is article
+                <div class="imej">
+                    <img src="bocil1.jpg" alt="" />
+                    <img src="bocil4.jpg" alt="" />
+                    <img src="bocil2.jpg" alt="" />
+                </div>
+            </article>
+        </div>
+        <div class="row">
+        <footer>
+            this is footer
+        </footer>
+        </div>
+    </body>
+</html>

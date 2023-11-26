@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <title>document</title>
+    </head>
+    <body>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                text-align: center;
+            }
+            header, footer{
+                background-color: rgb(182, 158, 81);
+                height: 10vh;
+            }
+            #main{
+                display: flex;
+            }
+            #main aside{
+                height: 60vw;
+                flex: 0 0 20vw;
+            }
+            #main nav{
+                background-color: pink;
+            }
+            #main aside{
+                background-color: rgb(120, 245, 245);
+            }
+            #main article{
+                flex: 1;
+            }
+        </style>
+        <header>
+            header
+        </header>
+        <div id="main">
+            <nav>
+                this is nav
+            </nav>
+            <article>
+                this is article
+            </article>
+            <aside>
+                this is aside
+            </aside>
+        </div>
+        <footer>
+            this is footer
+        </footer>
+    </body>
+</html>
